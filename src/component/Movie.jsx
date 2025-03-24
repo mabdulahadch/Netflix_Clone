@@ -26,8 +26,6 @@ function Movie() {
     images10,
   ];
 
-  let im = images1;
-
   let movieList = [
     "Terminator",
     "Rambo",
@@ -54,6 +52,7 @@ function Movie() {
     "Fantasy",
     "Sci-Fi",
   ];
+
 
   return (
     <div className="movie-container">

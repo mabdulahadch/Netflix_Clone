@@ -1,12 +1,16 @@
-// import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-// import './index.css'
-// import App from './App.jsx'
-import Movie from './component/Movie.jsx'
+// import { StrictMode } from 'react';
+import { createRoot } from "react-dom/client";
+// import Graph from './component/Graph';
+import Movie from './Hook/Movie';
+import Home from "./Hook/Home";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   // <StrictMode>
-  //   <App />
-  // </StrictMode>,
-  <Movie /> 
-)
+    // <Graph />
+  // </StrictMode>
+  // <Movie/>
+  // <Home/>
+  <Movie/>
+
+);
+
